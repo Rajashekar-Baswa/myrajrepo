@@ -10,5 +10,9 @@ public class SecondController {
     public String hello() {
     	   return "Hello Controller 2";
     	}
-
+	
+	@RequestMapping(value = "/hijenkins")
+    public String helloJenkins() {
+    	   return "Hello Jenkins";
+    	}
 }
