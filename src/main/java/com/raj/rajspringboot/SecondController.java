@@ -20,4 +20,9 @@ public class SecondController {
     public String helloJenkinsAgain() {
     	   return "Hello Jenkins Again";
     	}
+	
+	@RequestMapping(value = "/hitomcat")
+    public String helloTomcat() {
+    	   return "Hello Tomcat";
+    	}
 }
