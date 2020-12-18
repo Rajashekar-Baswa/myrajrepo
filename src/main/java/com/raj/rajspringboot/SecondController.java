@@ -15,4 +15,9 @@ public class SecondController {
     public String helloJenkins() {
     	   return "Hello Jenkins";
     	}
+	
+	@RequestMapping(value = "/hijenkinsagain")
+    public String helloJenkinsAgain() {
+    	   return "Hello Jenkins Again";
+    	}
 }
