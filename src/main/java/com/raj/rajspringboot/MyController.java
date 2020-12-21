@@ -19,5 +19,11 @@ public class MyController {
     	}
 	
 	
-
+	@RequestMapping(value = "/hiraj2")
+    public String helloRaj2() {
+    	   return "Hello Raj 2 from Jenkins";
+    	   
+    	   
+    	}
+	
 }
