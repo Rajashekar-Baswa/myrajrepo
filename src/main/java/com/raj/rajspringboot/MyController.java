@@ -14,6 +14,8 @@ public class MyController {
 	@RequestMapping(value = "/hiraj")
     public String helloRaj() {
     	   return "Hello Raj from Jenkins";
+    	   
+    	   
     	}
 	
 	
