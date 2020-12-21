@@ -11,5 +11,11 @@ public class MyController {
     	   return "Hello Spring Boot";
     	}
 	
+	@RequestMapping(value = "/hiraj")
+    public String helloRaj() {
+    	   return "Hello Raj from Jenkins";
+    	}
+	
+	
 
 }
